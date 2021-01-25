@@ -4,7 +4,7 @@ import * as faker from "faker";
 const f = "pokemon.json";
 const x = [
     { name: "Liam", nickname: faker.name.firstName() },
-    { name: "Lim", nickname: faker.name.firstName() },
+    { name: "Liam", nickname: faker.name.firstName() },
     { name: "Liam", nickname: faker.name.firstName() }
 ];
 
