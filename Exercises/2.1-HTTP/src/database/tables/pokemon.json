@@ -1,0 +1,8 @@
+{
+    "columns": { "id": "number", "name": "string", "type": "string" },
+    "rows": [
+        { "name": "Bulbasaur", "type": "Grass", "id": 1 },
+        { "name": "Charmander", "type": "Fire", "id": 2 },
+        { "name": "Squirtle", "type": "Water", "id": 3 }
+    ]
+}
