@@ -1,0 +1,26 @@
+{
+	"name": "exercise-1.4",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"jest": {
+		"testEnvironment": "node",
+		"verbose": true,
+		"testTimeout": 600000
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/node": "^14.14.20",
+		"dotenv": "^8.2.0",
+		"mysql2": "^2.2.5"
+	},
+	"devDependencies": {
+		"@types/jest": "^26.0.19",
+		"jest": "^26.6.3"
+	}
+}

@@ -1,0 +1,6 @@
+[submodule "Assignments/exercise-1_2-terror"]
+	path = Assignments/exercise-1_2-terror
+	url = https://github.com/JAC-CS-Web-Programming-II-W21/exercise-1_2-terror.git
+[submodule "Assignments/assignment-1-terror"]
+	path = Assignments/assignment-1-terror
+	url = https://github.com/JAC-CS-Web-Programming-II-W21/assignment-1-terror.git
