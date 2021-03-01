@@ -10,3 +10,6 @@
 [submodule "Assignments/exercise-2_3-terror"]
 	path = Assignments/exercise-2_3-terror
 	url = https://github.com/JAC-CS-Web-Programming-II-W21/exercise-2_3-terror.git
+[submodule "Assignments/assignment-2-terror"]
+	path = Assignments/assignment-2-terror
+	url = https://github.com/JAC-CS-Web-Programming-II-W21/assignment-2-terror.git
