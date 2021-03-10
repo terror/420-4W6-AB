@@ -1,0 +1,20 @@
+{
+	"name": "exercise-3.2",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"server": "nodemon server.js --ext js,hbs"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/node": "^14.14.20",
+		"handlebars": "^4.7.7"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6",
+		"prettier": "^2.2.1"
+	}
+}

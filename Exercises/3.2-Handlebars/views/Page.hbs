@@ -1,0 +1,12 @@
+{{> Header }}
+    <h1>{{heading}}</h1>
+    <p>{{content}}</p>
+    <img src="{{image}}">
+    <ul>
+        {{#each stock}}
+          {{#if onSale}}
+            <li>{{name}} costs ${{price}}</li>
+          {{/if}}
+        {{/each}}
+    </ul>
+{{> Footer }}
