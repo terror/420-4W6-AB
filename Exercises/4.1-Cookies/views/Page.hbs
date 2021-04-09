@@ -1,0 +1,21 @@
+{{> Header }}
+    <h1>{{heading}}</h1>
+    <p>{{content}}</p>
+    <img src="{{image}}">
+    {{#if stock.length}}
+      <ul>
+          {{#each stock}}
+            {{#if onSale}}
+              <li>{{name}} costs ${{price}}</li>
+            {{/if}}
+          {{/each}}
+      </ul>
+    {{/if}}
+    <form method="POST" action="/language">
+      <select name="language" onchange="this.form.submit()">
+         <option selected='true'>Select language!</option>
+          <option value="en">󠁧󠁢󠁥English</option>
+          <option value="fr">󠁧󠁢󠁥French</option>
+      </select>
+    </form>
+{{> Footer }}
