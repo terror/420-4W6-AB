@@ -1,0 +1,10 @@
+{{> Partials/Header }}
+
+<h1>Create New Pokemon</h1>
+<form action="{{ path 'pokemon' }}" method="POST" id="new-pokemon-form">
+    <input type="text" name="name">
+    <input type="text" name="type">
+    <button>Submit</button>
+</form>
+
+{{> Partials/Footer }}

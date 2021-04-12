@@ -1,0 +1,19 @@
+{{> Partials/Header }}
+
+    <div class="comment" comment-id='{{ payload.id }}'>
+        <p>{{ payload.content }}</p>
+        <p>{{ payload.createdAt }}</p>
+        <p>{{ payload.user.username }}</p>
+    </div>
+
+    {{#if payload.replies.length}}
+        {{#each payload.replies}}
+            <div class="comment" comment-id='{{ id }}'>
+                <p>{{ content }}</p>
+                <p>{{ createdAt }}</p>
+                <p>{{ username }}</p>
+            </div>
+        {{/each}}
+    {{/if}}
+
+{{> Partials/Footer }}

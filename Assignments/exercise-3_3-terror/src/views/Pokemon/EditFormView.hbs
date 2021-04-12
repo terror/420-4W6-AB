@@ -1,0 +1,8 @@
+{{> Partials/Header }}
+<form action="{{ path 'pokemon/{id}' payload.id }}" method="POST" id="edit-pokemon-form">
+    <input type="hidden" name="method" value="PUT">
+    <input type="text" name="name" placeholder="Enter new name">
+    <input type="text" name="type" placeholder="Enter new type">
+    <button>Save</button>
+</form>
+{{> Partials/Footer }}

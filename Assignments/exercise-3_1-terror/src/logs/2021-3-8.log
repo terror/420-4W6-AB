@@ -1,0 +1,916 @@
+[2021-3-8 22:39:10] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:39:10] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:39:10] DatabaseException: Duplicate entry 'Vulpix' for key 'pokemon.uq_pokemon_name'
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:35:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:43:2)
+[2021-3-8 22:39:10] PokemonException: Cannot create Pokemon: Missing name.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:121:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:76:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:39:10] PokemonException: Cannot create Pokemon: Missing type.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:122:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:87:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:39:53] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:39:53] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:39:53] DatabaseException: Duplicate entry 'Pikachu' for key 'pokemon.uq_pokemon_name'
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:35:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:43:2)
+[2021-3-8 22:39:54] PokemonException: Cannot create Pokemon: Missing name.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:121:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:76:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:39:54] PokemonException: Cannot create Pokemon: Missing type.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:122:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:87:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:40:22] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:40:22] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:40:22] DatabaseException: Duplicate entry 'Pikachu' for key 'pokemon.uq_pokemon_name'
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:35:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:43:2)
+[2021-3-8 22:40:23] PokemonException: Cannot update Pokemon: Missing name.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:121:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:76:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:40:23] PokemonException: Cannot update Pokemon: Missing type.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:122:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:87:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:40:43] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:40:43] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:40:43] DatabaseException: Duplicate entry 'Hitmonlee' for key 'pokemon.uq_pokemon_name'
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:35:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:43:2)
+[2021-3-8 22:40:43] PokemonException: Cannot update Pokemon: Missing name.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:121:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:76:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:40:43] PokemonException: Cannot update Pokemon: Missing type.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:122:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:87:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:46)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:13:32)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+[2021-3-8 22:41:59] DatabaseException: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:61:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:46)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:41:16)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] DatabaseException: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:61:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:46)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:50:27)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] DatabaseException: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:61:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:46)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:57:27)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] DatabaseException: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:61:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:46)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:72:24)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] DatabaseException: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:61:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:46)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:83:24)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] DatabaseException: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:61:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:46)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:94:24)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:41:59] DatabaseException: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:61:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:42:46] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:45)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:13:32)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+[2021-3-8 22:42:46] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:42:46] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:42:46] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:45)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:41:16)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:42:46] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:45)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:50:27)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:42:46] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:45)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:57:27)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:42:46] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:45)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:72:24)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:42:46] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:45)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:83:24)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:42:46] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:45)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:94:24)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:43:1] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:54)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:13:32)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+[2021-3-8 22:43:1] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:43:1] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:43:1] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:54)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:41:16)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:43:1] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:54)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:50:27)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:43:1] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:54)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:57:27)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:43:1] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:54)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:72:24)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:43:1] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:54)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:83:24)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:43:1] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:29:54)
+    at generatePokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/TestHelper.js:39:33)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:94:24)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:44:35] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:44:35] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:44:35] DatabaseException: Duplicate entry 'Eevee' for key 'pokemon.uq_pokemon_name'
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:38:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:43:2)
+[2021-3-8 22:44:35] PokemonException: Cannot update Pokemon: Missing name.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:124:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:76:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:44:35] PokemonException: Cannot update Pokemon: Missing type.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:125:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:87:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:45:29] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:45:29] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:45:29] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:38:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:43:2)
+[2021-3-8 22:45:29] PokemonException: Cannot update Pokemon: Missing name.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:125:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:76:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:45:29] PokemonException: Cannot update Pokemon: Missing type.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:126:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:87:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:45:35] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:45:35] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:45:35] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:38:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:43:2)
+[2021-3-8 22:45:35] PokemonException: Cannot update Pokemon: Missing name.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:124:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:76:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:45:35] PokemonException: Cannot update Pokemon: Missing type.
+    at Pokemon.save (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:125:31)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/model.test.js:87:23)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:45:44] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:35)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:21)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:45:44] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:35)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:21)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:45:44] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:38:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:21)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:57:2)
+[2021-3-8 22:47:26] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:39)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:21)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:47:26] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:39)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:21)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:47:26] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:38:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:25)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:57:2)
+[2021-3-8 22:48:22] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:39)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:21)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:48:22] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:39)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:21)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:48:22] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:38:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:25)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:57:2)
+[2021-3-8 22:49:39] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:39)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:21)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:49:39] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:39)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:21)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:49:39] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:38:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:25)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:57:2)
+[2021-3-8 22:53:13] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:39)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:21)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:53:13] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:39)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:21)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:53:13] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:38:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:25)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:57:2)
+[2021-3-8 22:54:26] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:25:26)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:39)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:21)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:54:26] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:26)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:39)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:21)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 22:54:26] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:38:19)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:25)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:57:2)
+[2021-3-8 23:16:3] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:40:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:16:3] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:40:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:16:3] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:40:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:40:19)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:57:2)
+[2021-3-8 23:18:35] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:18:35] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:18:36] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:40:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:19)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:57:2)
+[2021-3-8 23:18:36] PokemonException: Cannot retrieve Pokemon: Pokemon does not exists with ID: 15
+    at PokemonController.findPokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:127:15)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:68:19)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:111:2)
+[2021-3-8 23:18:36] PokemonException: Cannot retrieve Pokemon: Pokemon does not exists with ID: 33
+    at PokemonController.findPokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:127:15)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:80:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:139:2)
+[2021-3-8 23:18:36] PokemonException: No name.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:91:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:150:2)
+[2021-3-8 23:19:26] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:19:26] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:19:26] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:40:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:19)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:57:2)
+[2021-3-8 23:19:26] PokemonException: Cannot retrieve Pokemon: Pokemon does not exists with ID: 59
+    at PokemonController.findPokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:126:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:68:19)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:111:2)
+[2021-3-8 23:19:27] PokemonException: Cannot retrieve Pokemon: Pokemon does not exists with ID: 35
+    at PokemonController.findPokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:126:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:80:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:139:2)
+[2021-3-8 23:19:27] PokemonException: No name.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:91:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:150:2)
+[2021-3-8 23:20:14] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:20:14] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:20:14] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:40:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:19)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:57:2)
+[2021-3-8 23:20:14] PokemonException: Cannot retrieve Pokemon: Pokemon does not exists with ID: 16
+    at PokemonController.findPokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:126:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:68:19)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:111:2)
+[2021-3-8 23:20:14] PokemonException: Cannot retrieve Pokemon: Pokemon does not exists with ID: 69
+    at PokemonController.findPokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:126:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:80:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:139:2)
+[2021-3-8 23:20:14] PokemonException: No name.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:91:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:150:2)
+[2021-3-8 23:22:36] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:22:36] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:22:36] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:40:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:19)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:57:2)
+[2021-3-8 23:22:37] PokemonException: Cannot retrieve Pokemon: Pokemon does not exists with ID: 57
+    at PokemonController.findPokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:131:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:68:19)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:111:2)
+[2021-3-8 23:22:37] PokemonException: Cannot retrieve Pokemon: Pokemon does not exists with ID: 24
+    at PokemonController.findPokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:131:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:80:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:139:2)
+[2021-3-8 23:22:37] PokemonException: No name.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:91:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:150:2)
+[2021-3-8 23:23:18] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:23:18] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:23:18] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:40:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:19)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:57:2)
+[2021-3-8 23:23:18] PokemonException: Cannot retrieve Pokemon: Pokemon does not exists with ID: 96
+    at PokemonController.findPokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:136:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:68:19)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:111:2)
+[2021-3-8 23:23:18] PokemonException: Cannot retrieve Pokemon: Pokemon does not exists with ID: 45
+    at PokemonController.findPokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:136:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:80:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:139:2)
+[2021-3-8 23:23:18] PokemonException: No name.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:91:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:150:2)
+[2021-3-8 23:25:51] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:25:51] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.action [as new] (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:33)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/Controller.js:16:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-3-8 23:25:51] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/models/Pokemon.js:40:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:41:19)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:57:2)
+[2021-3-8 23:25:51] PokemonException: Cannot retrieve Pokemon: Pokemon does not exists with ID: 67
+    at PokemonController.findPokemon (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:142:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:85:17)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:139:2)
+[2021-3-8 23:25:52] PokemonException: No name.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/src/controllers/PokemonController.js:97:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at Object.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-3_1-terror/tests/controller.test.js:150:2)

@@ -1,0 +1,19 @@
+{{> Partials/Header }}
+
+    <p id="username">{{ payload.username }}</p>
+    <p id="email">{{ payload.email }}</p>
+
+    <form action="{{ path 'user/{id}' payload.id }}" method="POST" id="edit-user-form">
+        <input type="hidden" name="method" value="PUT">
+        <input type="text" name="username" placeholder="Enter new username">
+        <input type="text" name="email" placeholder="Enter new email">
+        <input type="text" name="password" placeholder="Enter new password">
+        <button>Save</button>
+    </form>
+
+    <form action="{{ path 'user/{id}' payload.id }}" method="POST" id="delete-user-form">
+        <input type="hidden" name="method" value="DELETE">
+        <button>Delete</button>
+    </form>
+
+{{> Partials/Footer }}

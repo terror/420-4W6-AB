@@ -1,0 +1,9 @@
+{{> Partials/Header }}
+
+    <form action="{{ path 'post/{id}' payload.id}}" method="POST" id="edit-post-form">
+        <input type="hidden" name="method" value="PUT">
+        <textarea name="content">{{ payload.content }}</textarea>
+        <button>Submit</button>
+    </form>
+
+{{> Partials/Footer }}

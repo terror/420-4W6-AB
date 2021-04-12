@@ -1,0 +1,10 @@
+{{> Partials/Header }}
+
+    <form action="{{ path 'category/{id}' payload.id}}" method="POST" id="edit-category-form">
+        <input type="hidden" name="method" value="PUT">
+        <input type="text" name="title">
+        <input type="text" name="description">
+        <button>Submit</button>
+    </form>
+
+{{> Partials/Footer }}

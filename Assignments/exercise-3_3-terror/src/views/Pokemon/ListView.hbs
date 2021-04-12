@@ -1,0 +1,26 @@
+{{> Partials/Header }}
+    <h1>All Pokemon</h1>
+
+    {{#if payload.length}}
+        <table>
+            <tbody>
+                {{#each payload}}
+                    <tr pokemon-id='{{ id }}'>
+                        <td>{{ name }}</td>
+                        <td>{{ type }}</td>
+                        <td>
+                            <form action="{{ path 'pokemon/{id}' id }}" method="POST">
+                                <input type="hidden" name="method" value="DELETE">
+                                <button type="submit" class="delete-button">Delete</button>
+                            </form>
+                       </td>
+                    </tr>
+                    <a href={{ path 'pokemon/{id}/edit' id }}>Link</a>
+                {{/each}}
+            </tbody>
+        </table>
+    {{else}}
+        <h1>No Pokemon in the database! Please add one first.</h1>
+    {{/if}}
+
+{{> Partials/Footer }}

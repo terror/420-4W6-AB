@@ -1,0 +1,36 @@
+{{> Partials/Header }}
+
+    <!-- Nav -->
+    <h1>Welcome to Reddit!</h1>
+    <nav>
+        <a href="{{ path 'user/new' }}">Create User</a>
+    </nav>
+
+    <!-- Categories create form -->
+    <form action="{{ path 'category/new' }}" method="POST" id="new-category-form">
+        <input type="text" name="userId">
+        <input type="text" name="title">
+        <input type="text" name="description">
+        <button>Submit</button>
+    </form>
+
+    <!-- Categories table -->
+    {{#if payload.length}}
+        <table id="categories">
+            <tbody>
+            {{#each payload}}
+                <tr category-id='{{ id }}'>
+                    <td>{{ title }}</td>
+                    <td>{{ username }}</td>
+                    <td>{{ createdAt }}</td>
+                    {{#if deletedAt}} <td>Yes</td> {{else}} <td>No</td> {{/if}}
+                </tr>
+                <a href={{ path 'category/{id}' id }}>Show category!</a>
+            {{/each}}
+            </tbody>
+        </table>
+    {{else}}
+        <h1>No categories to display.</h1>
+    {{/if}}
+
+{{> Partials/Footer}}

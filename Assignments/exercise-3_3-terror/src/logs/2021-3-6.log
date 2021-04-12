@@ -1,0 +1,1652 @@
+[2021-3-6 10:44:7] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:7] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:7] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:43:2)
+[2021-3-6 10:44:7] PokemonException: Cannot update Pokemon: Missing name.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:76:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:7] PokemonException: Cannot update Pokemon: Missing type.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:87:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:7] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:7] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:7] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:57:2)
+[2021-3-6 10:44:7] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 30.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:111:2)
+[2021-3-6 10:44:8] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 69.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:139:2)
+[2021-3-6 10:44:8] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:150:2)
+[2021-3-6 10:44:8] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 95.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:175:2)
+[2021-3-6 10:44:8] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:74:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:8] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:86:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:8] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:99:19)
+[2021-3-6 10:44:8] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 77.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:152:19)
+[2021-3-6 10:44:8] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 39.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:189:19)
+[2021-3-6 10:44:8] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:201:19)
+[2021-3-6 10:44:9] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:213:19)
+[2021-3-6 10:44:9] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 30.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:239:13)
+[2021-3-6 10:44:9] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 24.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:250:19)
+[2021-3-6 10:44:21] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:21] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:21] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:43:2)
+[2021-3-6 10:44:21] PokemonException: Cannot update Pokemon: Missing name.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:76:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:21] PokemonException: Cannot update Pokemon: Missing type.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:87:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:22] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:22] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:22] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:57:2)
+[2021-3-6 10:44:22] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 11.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:111:2)
+[2021-3-6 10:44:22] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 50.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:139:2)
+[2021-3-6 10:44:22] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:150:2)
+[2021-3-6 10:44:22] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 60.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:175:2)
+[2021-3-6 10:44:22] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:74:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:22] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:86:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:44:22] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:99:19)
+[2021-3-6 10:44:23] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 92.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:152:19)
+[2021-3-6 10:44:23] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 19.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:189:19)
+[2021-3-6 10:44:23] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:201:19)
+[2021-3-6 10:44:23] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:213:19)
+[2021-3-6 10:44:23] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 33.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:239:13)
+[2021-3-6 10:44:23] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 88.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:250:19)
+[2021-3-6 10:47:31] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:74:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:31] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:86:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:31] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:99:19)
+[2021-3-6 10:47:32] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 7.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:152:19)
+[2021-3-6 10:47:32] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 46.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:189:19)
+[2021-3-6 10:47:32] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:201:19)
+[2021-3-6 10:47:32] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:213:19)
+[2021-3-6 10:47:32] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 44.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:239:13)
+[2021-3-6 10:47:32] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 47.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:250:19)
+[2021-3-6 10:47:53] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:53] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:53] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:43:2)
+[2021-3-6 10:47:53] PokemonException: Cannot update Pokemon: Missing name.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:76:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:53] PokemonException: Cannot update Pokemon: Missing type.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:87:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:53] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:53] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:53] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:57:2)
+[2021-3-6 10:47:53] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 71.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:111:2)
+[2021-3-6 10:47:53] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 15.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:139:2)
+[2021-3-6 10:47:53] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:150:2)
+[2021-3-6 10:47:54] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 17.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:175:2)
+[2021-3-6 10:47:54] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:74:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:54] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:86:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:54] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:99:19)
+[2021-3-6 10:47:54] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 3.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:152:19)
+[2021-3-6 10:47:54] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 14.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:189:19)
+[2021-3-6 10:47:54] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:201:19)
+[2021-3-6 10:47:54] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:213:19)
+[2021-3-6 10:47:54] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 31.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:239:13)
+[2021-3-6 10:47:54] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 2.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:250:19)
+[2021-3-6 10:47:55] 📨 >> GET / {}
+[2021-3-6 10:47:55] 💌 << 200 OK
+[2021-3-6 10:47:55] 📨 >> GET /digimon {}
+[2021-3-6 10:47:55] 💌 << 404 NOT_FOUND
+[2021-3-6 10:47:55] 📨 >> PATCH /pokemon {}
+[2021-3-6 10:47:55] 💌 << 405 METHOD_NOT_ALLOWED
+[2021-3-6 10:47:55] 📨 >> POST /pokemon {"name":"Bulbasaur","type":"Grass"}
+[2021-3-6 10:47:55] 💌 << 200 OK
+[2021-3-6 10:47:55] 📨 >> POST /pokemon {"name":"","type":"Fire"}
+[2021-3-6 10:47:55] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:38)
+    at Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:55] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:47:55] 📨 >> POST /pokemon {"name":"Pikachu","type":""}
+[2021-3-6 10:47:55] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:38)
+    at Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:55] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:47:55] 📨 >> POST /pokemon {"name":"Hitmonlee","type":"Water"}
+[2021-3-6 10:47:55] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:47:55] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:47:55] 📨 >> GET /pokemon {}
+[2021-3-6 10:47:55] 💌 << 200 OK
+[2021-3-6 10:47:55] 📨 >> GET /pokemon/1 {}
+[2021-3-6 10:47:55] 💌 << 200 OK
+[2021-3-6 10:47:55] 📨 >> GET /pokemon/28 {}
+[2021-3-6 10:47:55] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 28.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:47:55] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:47:55] 📨 >> PUT /pokemon/1 {"name":"Alakazam"}
+[2021-3-6 10:47:55] 💌 << 200 OK
+[2021-3-6 10:47:55] 📨 >> GET /pokemon/1 {}
+[2021-3-6 10:47:55] 💌 << 200 OK
+[2021-3-6 10:47:55] 📨 >> PUT /pokemon/50 {"name":"Charmander"}
+[2021-3-6 10:47:55] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 50.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:47:55] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:47:55] 📨 >> PUT /pokemon/1 {"name":""}
+[2021-3-6 10:47:55] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:47:55] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:47:55] 📨 >> PUT /pokemon/1 {"type":""}
+[2021-3-6 10:47:55] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:47:55] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:47:55] 📨 >> DELETE /pokemon/1 {}
+[2021-3-6 10:47:55] 💌 << 200 OK
+[2021-3-6 10:47:55] 📨 >> GET /pokemon/1 {}
+[2021-3-6 10:47:55] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 1.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:47:55] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:47:55] 📨 >> DELETE /pokemon/5 {}
+[2021-3-6 10:47:55] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 5.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:47:55] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:47:59] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:59] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:59] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:43:2)
+[2021-3-6 10:47:59] PokemonException: Cannot update Pokemon: Missing name.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:76:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:47:59] PokemonException: Cannot update Pokemon: Missing type.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:87:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:48:0] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:48:0] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:48:0] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:57:2)
+[2021-3-6 10:48:0] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 61.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:111:2)
+[2021-3-6 10:48:0] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 46.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:139:2)
+[2021-3-6 10:48:0] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:150:2)
+[2021-3-6 10:48:0] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 3.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:175:2)
+[2021-3-6 10:48:0] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:74:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:48:1] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:86:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:48:1] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:99:19)
+[2021-3-6 10:48:1] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 13.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:152:19)
+[2021-3-6 10:48:1] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 68.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:189:19)
+[2021-3-6 10:48:1] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:201:19)
+[2021-3-6 10:48:1] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:213:19)
+[2021-3-6 10:48:1] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 89.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:239:13)
+[2021-3-6 10:48:1] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 99.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:250:19)
+[2021-3-6 10:48:1] 📨 >> GET / {}
+[2021-3-6 10:48:1] 💌 << 200 OK
+[2021-3-6 10:48:1] 📨 >> GET /digimon {}
+[2021-3-6 10:48:1] 💌 << 404 NOT_FOUND
+[2021-3-6 10:48:1] 📨 >> PATCH /pokemon {}
+[2021-3-6 10:48:1] 💌 << 405 METHOD_NOT_ALLOWED
+[2021-3-6 10:48:1] 📨 >> POST /pokemon {"name":"Machamp","type":"Fighting"}
+[2021-3-6 10:48:1] 💌 << 200 OK
+[2021-3-6 10:48:1] 📨 >> POST /pokemon {"name":"","type":"Dragon"}
+[2021-3-6 10:48:1] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:38)
+    at Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:48:1] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:48:1] 📨 >> POST /pokemon {"name":"Squirtle","type":""}
+[2021-3-6 10:48:1] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:38)
+    at Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:48:1] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:48:1] 📨 >> POST /pokemon {"name":"Snorlax","type":"Fire"}
+[2021-3-6 10:48:1] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:48:1] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:48:1] 📨 >> GET /pokemon {}
+[2021-3-6 10:48:1] 💌 << 200 OK
+[2021-3-6 10:48:1] 📨 >> GET /pokemon/1 {}
+[2021-3-6 10:48:1] 💌 << 200 OK
+[2021-3-6 10:48:2] 📨 >> GET /pokemon/77 {}
+[2021-3-6 10:48:2] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 77.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:48:2] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:48:2] 📨 >> PUT /pokemon/1 {"name":"Koffing"}
+[2021-3-6 10:48:2] 💌 << 200 OK
+[2021-3-6 10:48:2] 📨 >> GET /pokemon/1 {}
+[2021-3-6 10:48:2] 💌 << 200 OK
+[2021-3-6 10:48:2] 📨 >> PUT /pokemon/27 {"name":"Charmander"}
+[2021-3-6 10:48:2] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 27.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:48:2] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:48:2] 📨 >> PUT /pokemon/1 {"name":""}
+[2021-3-6 10:48:2] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:48:2] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:48:2] 📨 >> PUT /pokemon/1 {"type":""}
+[2021-3-6 10:48:2] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:48:2] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:48:2] 📨 >> DELETE /pokemon/1 {}
+[2021-3-6 10:48:2] 💌 << 200 OK
+[2021-3-6 10:48:2] 📨 >> GET /pokemon/1 {}
+[2021-3-6 10:48:2] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 1.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:48:2] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:48:2] 📨 >> DELETE /pokemon/38 {}
+[2021-3-6 10:48:2] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 38.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:48:2] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:49:7] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:49:7] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:49:7] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:43:2)
+[2021-3-6 10:49:7] PokemonException: Cannot update Pokemon: Missing name.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:76:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:49:7] PokemonException: Cannot update Pokemon: Missing type.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:87:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:49:7] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:49:7] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:49:7] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:57:2)
+[2021-3-6 10:49:7] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 30.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:111:2)
+[2021-3-6 10:49:8] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 61.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:139:2)
+[2021-3-6 10:49:8] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:150:2)
+[2021-3-6 10:49:8] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 97.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:175:2)
+[2021-3-6 10:49:9] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:74:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:49:9] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:86:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:49:9] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:99:19)
+[2021-3-6 10:49:9] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 6.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:152:19)
+[2021-3-6 10:49:9] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 43.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:188:19)
+[2021-3-6 10:49:9] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:200:19)
+[2021-3-6 10:49:9] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:212:19)
+[2021-3-6 10:49:9] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 11.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:238:13)
+[2021-3-6 10:49:9] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 52.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:249:19)
+[2021-3-6 10:49:9] 📨 >> GET / {}
+[2021-3-6 10:49:9] 💌 << 200 OK
+[2021-3-6 10:49:9] 📨 >> GET /digimon {}
+[2021-3-6 10:49:9] 💌 << 404 NOT_FOUND
+[2021-3-6 10:49:9] 📨 >> PATCH /pokemon {}
+[2021-3-6 10:49:9] 💌 << 405 METHOD_NOT_ALLOWED
+[2021-3-6 10:49:9] 📨 >> POST /pokemon {"name":"Pikachu","type":"Lightning"}
+[2021-3-6 10:49:9] 💌 << 200 OK
+[2021-3-6 10:49:9] 📨 >> POST /pokemon {"name":"","type":"Ground"}
+[2021-3-6 10:49:9] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:38)
+    at Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:49:9] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:49:9] 📨 >> POST /pokemon {"name":"Hitmonlee","type":""}
+[2021-3-6 10:49:9] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:38)
+    at Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:49:9] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:49:9] 📨 >> POST /pokemon {"name":"Machamp","type":"Dragon"}
+[2021-3-6 10:49:9] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:49:9] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:49:10] 📨 >> GET /pokemon {}
+[2021-3-6 10:49:10] 💌 << 200 OK
+[2021-3-6 10:49:10] 📨 >> GET /pokemon/1 {}
+[2021-3-6 10:49:10] 💌 << 200 OK
+[2021-3-6 10:49:10] 📨 >> GET /pokemon/61 {}
+[2021-3-6 10:49:10] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 61.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:49:10] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:49:10] 📨 >> PUT /pokemon/1 {"name":"Vulpix"}
+[2021-3-6 10:49:10] 💌 << 200 OK
+[2021-3-6 10:49:10] 📨 >> GET /pokemon/1 {}
+[2021-3-6 10:49:10] 💌 << 200 OK
+[2021-3-6 10:49:10] 📨 >> PUT /pokemon/9 {"name":"Charmander"}
+[2021-3-6 10:49:10] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 9.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:49:10] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:49:10] 📨 >> PUT /pokemon/1 {"name":""}
+[2021-3-6 10:49:10] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:49:10] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:49:10] 📨 >> PUT /pokemon/1 {"type":""}
+[2021-3-6 10:49:10] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:49:10] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:49:10] 📨 >> DELETE /pokemon/1 {}
+[2021-3-6 10:49:10] 💌 << 200 OK
+[2021-3-6 10:49:10] 📨 >> GET /pokemon/1 {}
+[2021-3-6 10:49:10] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 1.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:49:10] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:49:10] 📨 >> DELETE /pokemon/77 {}
+[2021-3-6 10:49:10] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 77.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:49:10] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:52:42] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:52:42] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:52:42] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:43:2)
+[2021-3-6 10:52:42] PokemonException: Cannot update Pokemon: Missing name.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:76:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:52:42] PokemonException: Cannot update Pokemon: Missing type.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:87:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:52:42] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:52:42] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:52:42] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:57:2)
+[2021-3-6 10:52:42] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 86.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:111:2)
+[2021-3-6 10:52:42] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 18.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:139:2)
+[2021-3-6 10:52:42] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:150:2)
+[2021-3-6 10:52:43] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 91.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:175:2)
+[2021-3-6 10:52:43] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:74:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:52:43] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:86:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:52:43] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:99:19)
+[2021-3-6 10:52:43] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 10.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:152:19)
+[2021-3-6 10:52:43] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 41.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:188:19)
+[2021-3-6 10:52:43] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:200:19)
+[2021-3-6 10:52:43] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:212:19)
+[2021-3-6 10:52:43] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 27.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:238:13)
+[2021-3-6 10:52:43] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 92.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:249:19)
+[2021-3-6 10:52:44] 📨 >> GET / {}
+[2021-3-6 10:52:44] 💌 << 200 OK
+[2021-3-6 10:52:44] 📨 >> GET /digimon {}
+[2021-3-6 10:52:44] 💌 << 404 NOT_FOUND
+[2021-3-6 10:52:44] 📨 >> PATCH /pokemon {}
+[2021-3-6 10:52:44] 💌 << 405 METHOD_NOT_ALLOWED
+[2021-3-6 10:52:44] 📨 >> POST /pokemon {"name":"Vulpix","type":"Fire"}
+[2021-3-6 10:52:44] 💌 << 200 OK
+[2021-3-6 10:52:44] 📨 >> POST /pokemon {"name":"","type":"Normal"}
+[2021-3-6 10:52:44] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:38)
+    at Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:52:44] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:52:44] 📨 >> POST /pokemon {"name":"Koffing","type":""}
+[2021-3-6 10:52:44] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:38)
+    at Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 10:52:44] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:52:44] 📨 >> POST /pokemon {"name":"Snorlax","type":"Fairy"}
+[2021-3-6 10:52:44] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:52:44] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:52:44] 📨 >> GET /pokemon {}
+[2021-3-6 10:52:44] 💌 << 200 OK
+[2021-3-6 10:52:44] 📨 >> GET /pokemon/1 {}
+[2021-3-6 10:52:44] 💌 << 200 OK
+[2021-3-6 10:52:44] 📨 >> GET /pokemon/49 {}
+[2021-3-6 10:52:44] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 49.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:52:44] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:52:44] 📨 >> PUT /pokemon/1 {"name":"Hitmonlee"}
+[2021-3-6 10:52:44] 💌 << 200 OK
+[2021-3-6 10:52:44] 📨 >> GET /pokemon/1 {}
+[2021-3-6 10:52:44] 💌 << 200 OK
+[2021-3-6 10:52:44] 📨 >> PUT /pokemon/52 {"name":"Charmander"}
+[2021-3-6 10:52:44] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 52.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:52:44] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:52:44] 📨 >> PUT /pokemon/1 {"name":""}
+[2021-3-6 10:52:44] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:52:44] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:52:44] 📨 >> PUT /pokemon/1 {"type":""}
+[2021-3-6 10:52:44] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:52:44] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:52:44] 📨 >> DELETE /pokemon/1 {}
+[2021-3-6 10:52:44] 💌 << 200 OK
+[2021-3-6 10:52:44] 📨 >> GET /pokemon/1 {}
+[2021-3-6 10:52:44] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 1.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:52:44] 💌 << 400 BAD_REQUEST
+[2021-3-6 10:52:44] 📨 >> DELETE /pokemon/92 {}
+[2021-3-6 10:52:44] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 92.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:51:2)
+[2021-3-6 10:52:44] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:32:37] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:32:37] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:32:37] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:43:2)
+[2021-3-6 11:32:37] PokemonException: Cannot update Pokemon: Missing name.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:76:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:32:37] PokemonException: Cannot update Pokemon: Missing type.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:87:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:32:37] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:32:37] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:32:37] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:57:2)
+[2021-3-6 11:32:38] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 61.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:111:2)
+[2021-3-6 11:32:38] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 13.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:139:2)
+[2021-3-6 11:32:38] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:150:2)
+[2021-3-6 11:32:38] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 98.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:175:2)
+[2021-3-6 11:32:38] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:74:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:32:38] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:86:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:32:38] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:99:19)
+[2021-3-6 11:32:38] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 59.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:152:19)
+[2021-3-6 11:32:38] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 36.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:188:19)
+[2021-3-6 11:32:39] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:200:19)
+[2021-3-6 11:32:39] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:212:19)
+[2021-3-6 11:32:39] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 93.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:238:13)
+[2021-3-6 11:32:39] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 33.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:249:19)
+[2021-3-6 11:32:39] 📨 >> GET / {}
+[2021-3-6 11:32:39] 💌 << 200 OK
+[2021-3-6 11:32:39] 📨 >> GET /digimon {}
+[2021-3-6 11:32:39] 💌 << 404 NOT_FOUND
+[2021-3-6 11:32:39] 📨 >> PATCH /pokemon {}
+[2021-3-6 11:32:39] 💌 << 405 METHOD_NOT_ALLOWED
+[2021-3-6 11:32:39] 📨 >> POST /pokemon {"name":"Pidgeotto","type":"Flying"}
+[2021-3-6 11:32:39] 💌 << 200 OK
+[2021-3-6 11:32:39] 📨 >> POST /pokemon {"name":"","type":"Lightning"}
+[2021-3-6 11:32:39] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:38)
+    at Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:32:39] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:32:39] 📨 >> POST /pokemon {"name":"Eevee","type":""}
+[2021-3-6 11:32:39] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:38)
+    at Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:32:39] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:32:39] 📨 >> POST /pokemon {"name":"Hitmonlee","type":"Rock"}
+[2021-3-6 11:32:39] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:32:39] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:32:39] 📨 >> GET /pokemon {}
+[2021-3-6 11:32:39] 💌 << 200 OK
+[2021-3-6 11:32:39] 📨 >> GET /pokemon/1 {}
+[2021-3-6 11:32:39] 💌 << 200 OK
+[2021-3-6 11:32:39] 📨 >> GET /pokemon/88 {}
+[2021-3-6 11:32:39] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 88.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:32:39] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:32:39] 📨 >> PUT /pokemon/1 {"name":"Squirtle"}
+[2021-3-6 11:32:39] 💌 << 200 OK
+[2021-3-6 11:32:39] 📨 >> GET /pokemon/1 {}
+[2021-3-6 11:32:39] 💌 << 200 OK
+[2021-3-6 11:32:40] 📨 >> PUT /pokemon/3 {"name":"Charmander"}
+[2021-3-6 11:32:40] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 3.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:32:40] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:32:40] 📨 >> PUT /pokemon/1 {"name":""}
+[2021-3-6 11:32:40] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:32:40] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:32:40] 📨 >> PUT /pokemon/1 {"type":""}
+[2021-3-6 11:32:40] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:32:40] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:32:40] 📨 >> DELETE /pokemon/1 {}
+[2021-3-6 11:32:40] 💌 << 200 OK
+[2021-3-6 11:32:40] 📨 >> GET /pokemon/1 {}
+[2021-3-6 11:32:40] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 1.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:32:40] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:32:40] 📨 >> DELETE /pokemon/99 {}
+[2021-3-6 11:32:40] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 99.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:32:40] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:51:34] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:24:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:51:34] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:33:23)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:51:34] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:43:2)
+[2021-3-6 11:51:34] PokemonException: Cannot update Pokemon: Missing name.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:76:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:51:34] PokemonException: Cannot update Pokemon: Missing type.
+    at Pokemon.save (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:135:10)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/model.test.js:87:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:51:35] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:34:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:51:35] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:45:26)
+    at Object.asyncJestTest (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (/home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /home/vik/web-ii/Exercises/3.1-Error-Handling/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:51:35] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:57:2)
+[2021-3-6 11:51:35] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 57.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:111:2)
+[2021-3-6 11:51:35] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 40.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:139:2)
+[2021-3-6 11:51:35] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:150:2)
+[2021-3-6 11:51:35] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 87.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/controller.test.js:175:2)
+[2021-3-6 11:51:35] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:74:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:51:35] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.action [as new] (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:86:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:51:36] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:99:19)
+[2021-3-6 11:51:36] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 79.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:152:19)
+[2021-3-6 11:51:36] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 67.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:188:19)
+[2021-3-6 11:51:36] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:200:19)
+[2021-3-6 11:51:36] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:212:19)
+[2021-3-6 11:51:36] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 44.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:238:13)
+[2021-3-6 11:51:36] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 29.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at Object.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/tests/router.test.js:249:19)
+[2021-3-6 11:51:36] 📨 >> GET / {}
+[2021-3-6 11:51:36] 💌 << 200 OK
+[2021-3-6 11:51:36] 📨 >> GET /digimon {}
+[2021-3-6 11:51:36] 💌 << 404 NOT_FOUND
+[2021-3-6 11:51:36] 📨 >> PATCH /pokemon {}
+[2021-3-6 11:51:36] 💌 << 405 METHOD_NOT_ALLOWED
+[2021-3-6 11:51:36] 📨 >> POST /pokemon {"name":"Eevee","type":"Normal"}
+[2021-3-6 11:51:36] 💌 << 200 OK
+[2021-3-6 11:51:36] 📨 >> POST /pokemon {"name":"","type":"Fighting"}
+[2021-3-6 11:51:36] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:38)
+    at Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:51:36] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:51:36] 📨 >> POST /pokemon {"name":"Onyx","type":""}
+[2021-3-6 11:51:36] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:17:10)
+    at PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:33)
+    at PokemonController.doAction (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/Controller.js:8:15)
+    at Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:42)
+    at App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:38)
+    at Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-3-6 11:51:36] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:51:36] 📨 >> POST /pokemon {"name":"Sandslash","type":"Water"}
+[2021-3-6 11:51:36] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/models/Pokemon.js:25:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PokemonController.new (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:33:19)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:51:36] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:51:36] 📨 >> GET /pokemon {}
+[2021-3-6 11:51:36] 💌 << 200 OK
+[2021-3-6 11:51:36] 📨 >> GET /pokemon/1 {}
+[2021-3-6 11:51:36] 💌 << 200 OK
+[2021-3-6 11:51:36] 📨 >> GET /pokemon/40 {}
+[2021-3-6 11:51:36] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 40.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:51:36] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:51:37] 📨 >> PUT /pokemon/1 {"name":"Dragonite"}
+[2021-3-6 11:51:37] 💌 << 200 OK
+[2021-3-6 11:51:37] 📨 >> GET /pokemon/1 {}
+[2021-3-6 11:51:37] 💌 << 200 OK
+[2021-3-6 11:51:37] 📨 >> PUT /pokemon/63 {"name":"Charmander"}
+[2021-3-6 11:51:37] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 63.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:69:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:51:37] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:51:37] 📨 >> PUT /pokemon/1 {"name":""}
+[2021-3-6 11:51:37] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:51:37] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:51:37] 📨 >> PUT /pokemon/1 {"type":""}
+[2021-3-6 11:51:37] PokemonException: Cannot update Pokemon: No update parameters were provided.
+    at PokemonController.edit (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:75:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:51:37] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:51:37] 📨 >> DELETE /pokemon/1 {}
+[2021-3-6 11:51:37] 💌 << 200 OK
+[2021-3-6 11:51:37] 📨 >> GET /pokemon/1 {}
+[2021-3-6 11:51:37] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 1.
+    at PokemonController.show (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:55:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:51:37] 💌 << 400 BAD_REQUEST
+[2021-3-6 11:51:37] 📨 >> DELETE /pokemon/15 {}
+[2021-3-6 11:51:37] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 15.
+    at PokemonController.destroy (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/controllers/PokemonController.js:93:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/router/Router.js:37:20)
+    at async App.sendResponse (/home/vik/web-ii/Exercises/3.1-Error-Handling/src/App.js:38:20)
+    at async Server.<anonymous> (/home/vik/web-ii/Exercises/3.1-Error-Handling/server.js:50:2)
+[2021-3-6 11:51:37] 💌 << 400 BAD_REQUEST
