@@ -1,0 +1,42 @@
+{{>Partials/Header}}
+
+<h1>All Pokemon</h1>
+
+{{#unless payload }}
+<p>No Pokemon in the database! Please add one first.</p>
+{{else}}
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Edit</th>
+			<th>Delete</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each payload }}
+		<tr pokemon-id="{{ id }}">
+			<td>
+				<a href="{{ path 'pokemon/{id}' id }}" class="{{ name }}">
+					{{ name }}
+				</a>
+			</td>
+			<td>
+				{{ type }}
+			</td>
+			{{#if isLoggedIn}}
+				<td>
+					<a href="{{ path 'pokemon/{id}/edit' id }}">✏️</a>
+				</td>
+				<td>
+					{{>Pokemon/DeleteFormView}}
+				</td>
+			{{/if}}
+		</tr>
+		{{/each}}
+	</tbody>
+</table>
+{{/unless}}
+
+{{>Partials/Footer}}

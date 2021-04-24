@@ -1,0 +1,14 @@
+{{> Partials/Header }}
+    <h1>Homepage!</h1>
+    <nav>
+        <a href={{ base }}>Home</a>
+        <a href={{ path 'pokemon'}}>List All Pokemon</a>
+        <a href={{ path 'pokemon/new'}}>Create Pokemon</a>
+        <a href={{ path 'auth/register'}}>Register</a>
+        <a href={{ path 'auth/login'}}>Login</a>
+        {{#if payload.isLoggedIn}}
+            <a href={{ path 'auth/logout'}}>Logout</a>
+        {{/if}}
+    </nav>
+</body>
+{{> Partials/Footer}}

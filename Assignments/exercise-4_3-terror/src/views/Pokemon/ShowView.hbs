@@ -1,0 +1,9 @@
+{{>Partials/Header}}
+
+    <h1 id="name">{{ payload.name }}</h1>
+    <h2 id="type">{{ payload.type }}</h2>
+    <nav>
+        <a href={{ path 'auth/logout'}}>Logout</a>
+    </nav>
+
+{{>Partials/Footer}}

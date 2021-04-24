@@ -1,0 +1,938 @@
+[2021-4-13 8:17:17] 📨 >> GET / {}
+[2021-4-13 8:17:17] 💌 << 200 OK
+[2021-4-13 10:57:6] 📨 >> GET / {}
+[2021-4-13 10:57:6] 💌 << 200 OK
+[2021-4-13 10:57:31] 📨 >> GET / {}
+[2021-4-13 10:57:31] 💌 << 200 OK
+[2021-4-13 10:57:46] 📨 >> GET / {}
+[2021-4-13 10:57:46] 💌 << 200 OK
+[2021-4-13 10:57:46] 📨 >> GET /digimon {}
+[2021-4-13 10:57:46] 💌 << 200 OK
+[2021-4-13 10:57:46] 📨 >> PATCH /pokemon {}
+[2021-4-13 10:57:46] 💌 << 200 OK
+[2021-4-13 10:57:46] 📨 >> POST /pokemon {
+	"name": "Charmander",
+	"type": "Fire"
+}
+[2021-4-13 10:57:46] 💌 << 200 OK
+[2021-4-13 10:57:46] 📨 >> POST /pokemon {
+	"name": "",
+	"type": "Psychic"
+}
+[2021-4-13 10:57:46] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:42:27)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-13 10:57:46] 💌 << 400 BAD_REQUEST
+[2021-4-13 10:57:46] 📨 >> POST /pokemon {
+	"name": "Koffing",
+	"type": ""
+}
+[2021-4-13 10:57:46] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:42:27)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-13 10:57:46] 💌 << 400 BAD_REQUEST
+[2021-4-13 10:57:46] 📨 >> POST /pokemon {
+	"name": "Pikachu",
+	"type": "Fighting"
+}
+[2021-4-13 10:57:46] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:37:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:42:13)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 10:57:46] 💌 << 400 BAD_REQUEST
+[2021-4-13 10:57:46] 📨 >> GET /pokemon {}
+[2021-4-13 10:57:46] 💌 << 200 OK
+[2021-4-13 10:57:46] 📨 >> GET /pokemon/undefined {}
+[2021-4-13 10:57:46] PokemonException: Cannot retrieve Pokemon, Missing ID.
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:57:20)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:85:13)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 10:57:46] 💌 << 400 BAD_REQUEST
+[2021-4-13 10:57:46] 📨 >> GET /pokemon/46 {}
+[2021-4-13 10:57:46] 💌 << 400 BAD_REQUEST
+[2021-4-13 10:57:46] 📨 >> POST /auth/login {
+	"name": "Vulpix",
+	"type": "Fire"
+}
+[2021-4-13 10:57:46] 💌 << 200 OK
+[2021-4-13 10:57:46] 📨 >> POST /auth/login {
+	"name": "Sandslash",
+	"type": "Ground"
+}
+[2021-4-13 10:57:46] 💌 << 200 OK
+[2021-4-13 10:57:46] 📨 >> GET /auth/logout {}
+[2021-4-13 10:57:46] 💌 << 200 OK
+[2021-4-13 10:57:46] 📨 >> POST /auth/login {
+	"name": "Pidgeotto",
+	"type": "Flying"
+}
+[2021-4-13 10:57:46] 💌 << 200 OK
+[2021-4-13 10:57:46] 📨 >> PUT /pokemon/undefined {
+	"name": "Dragonite"
+}
+[2021-4-13 10:57:46] PokemonException: Cannot retrieve Pokemon, Missing ID.
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:57:20)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:125:13)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 10:57:46] 💌 << 400 BAD_REQUEST
+[2021-4-13 10:57:46] 📨 >> PUT /pokemon/14 {
+	"name": "Charmander"
+}
+[2021-4-13 10:57:46] 💌 << 200 OK
+[2021-4-13 10:57:46] 📨 >> POST /auth/login {
+	"name": "Machamp",
+	"type": "Fighting"
+}
+[2021-4-13 10:57:46] 💌 << 200 OK
+[2021-4-13 10:57:46] 📨 >> DELETE /pokemon/undefined {}
+[2021-4-13 10:57:46] PokemonException: Cannot retrieve Pokemon, Missing ID.
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:57:20)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:169:13)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 10:57:46] 💌 << 400 BAD_REQUEST
+[2021-4-13 10:57:46] 📨 >> DELETE /pokemon/19 {}
+[2021-4-13 10:57:46] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 19.
+    at PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:175:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 10:57:46] 💌 << 400 BAD_REQUEST
+[2021-4-13 10:58:26] 📨 >> GET /digimon {}
+[2021-4-13 10:58:26] 💌 << 200 OK
+[2021-4-13 10:58:58] 📨 >> GET /digimon {}
+[2021-4-13 10:58:58] 💌 << 404 NOT_FOUND
+[2021-4-13 11:0:15] 📨 >> GET /digimon {}
+[2021-4-13 11:0:15] 💌 << 404 NOT_FOUND
+[2021-4-13 11:0:28] 📨 >> GET / {}
+[2021-4-13 11:0:28] 💌 << 200 OK
+[2021-4-13 11:0:28] 📨 >> GET /digimon {}
+[2021-4-13 11:0:28] 💌 << 404 NOT_FOUND
+[2021-4-13 11:0:28] 📨 >> PATCH /pokemon {}
+[2021-4-13 11:0:28] 💌 << 405 METHOD_NOT_ALLOWED
+[2021-4-13 11:0:28] 📨 >> POST /pokemon {
+	"name": "Machamp",
+	"type": "Fighting"
+}
+[2021-4-13 11:0:28] 💌 << 200 OK
+[2021-4-13 11:0:28] 📨 >> POST /pokemon {
+	"name": "",
+	"type": "Flying"
+}
+[2021-4-13 11:0:28] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:42:27)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-13 11:0:28] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:0:28] 📨 >> POST /pokemon {
+	"name": "Hitmonlee",
+	"type": ""
+}
+[2021-4-13 11:0:28] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:42:27)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-13 11:0:28] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:0:28] 📨 >> POST /pokemon {
+	"name": "Pikachu",
+	"type": "Dragon"
+}
+[2021-4-13 11:0:28] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:37:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:42:13)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:0:28] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:0:28] 📨 >> GET /pokemon {}
+[2021-4-13 11:0:28] 💌 << 200 OK
+[2021-4-13 11:0:28] 📨 >> GET /pokemon/undefined {}
+[2021-4-13 11:0:28] PokemonException: Cannot retrieve Pokemon, Missing ID.
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:57:20)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:85:13)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:0:28] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:0:28] 📨 >> GET /pokemon/82 {}
+[2021-4-13 11:0:28] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:0:28] 📨 >> POST /auth/login {
+	"name": "Alakazam",
+	"type": "Psychic"
+}
+[2021-4-13 11:0:28] 💌 << 404 NOT_FOUND
+[2021-4-13 11:0:28] 📨 >> POST /auth/login {
+	"name": "Vulpix",
+	"type": "Fire"
+}
+[2021-4-13 11:0:28] 💌 << 404 NOT_FOUND
+[2021-4-13 11:0:28] 📨 >> GET /auth/logout {}
+[2021-4-13 11:0:28] 💌 << 404 NOT_FOUND
+[2021-4-13 11:0:28] 📨 >> POST /auth/login {
+	"name": "Clefairy",
+	"type": "Fairy"
+}
+[2021-4-13 11:0:28] 💌 << 404 NOT_FOUND
+[2021-4-13 11:0:28] 📨 >> PUT /pokemon/undefined {
+	"name": "Bulbasaur"
+}
+[2021-4-13 11:0:28] PokemonException: Cannot retrieve Pokemon, Missing ID.
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:57:20)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:125:13)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:0:28] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:0:28] 📨 >> PUT /pokemon/62 {
+	"name": "Charmander"
+}
+[2021-4-13 11:0:28] 💌 << 200 OK
+[2021-4-13 11:0:28] 📨 >> POST /auth/login {
+	"name": "Squirtle",
+	"type": "Water"
+}
+[2021-4-13 11:0:28] 💌 << 404 NOT_FOUND
+[2021-4-13 11:0:28] 📨 >> DELETE /pokemon/undefined {}
+[2021-4-13 11:0:28] PokemonException: Cannot retrieve Pokemon, Missing ID.
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:57:20)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:169:13)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:0:28] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:0:29] 📨 >> DELETE /pokemon/11 {}
+[2021-4-13 11:0:29] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 11.
+    at PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:175:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:0:29] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:0:45] 📨 >> POST /pokemon {
+	"name": "Snorlax",
+	"type": "Normal"
+}
+[2021-4-13 11:0:45] 💌 << 200 OK
+[2021-4-13 11:2:22] 📨 >> POST /pokemon {
+	"name": "Charmander",
+	"type": "Fire"
+}
+[2021-4-13 11:2:22] 💌 << 200 OK
+[2021-4-13 11:2:49] 📨 >> POST /pokemon {
+	"name": "Charmander",
+	"type": "Fire"
+}
+[2021-4-13 11:2:49] 💌 << 200 OK
+[2021-4-13 11:7:31] 📨 >> POST /pokemon {
+	"name": "Bulbasaur",
+	"type": "Grass"
+}
+[2021-4-13 11:7:31] 💌 << 200 OK
+[2021-4-13 11:7:54] 📨 >> POST /pokemon {
+	"name": "Pikachu",
+	"type": "Lightning"
+}
+[2021-4-13 11:7:54] 💌 << 200 OK
+[2021-4-13 11:8:44] 📨 >> POST /pokemon {
+	"name": "Vulpix",
+	"type": "Fire"
+}
+[2021-4-13 11:8:44] 💌 << 200 OK
+[2021-4-13 11:10:6] 📨 >> POST /pokemon {
+	"name": "Koffing",
+	"type": "Poison"
+}
+[2021-4-13 11:10:6] 💌 << 200 OK
+[2021-4-13 11:10:33] 📨 >> POST /pokemon {
+	"name": "Bulbasaur",
+	"type": "Grass"
+}
+[2021-4-13 11:10:33] 💌 << 200 OK
+[2021-4-13 11:10:50] 📨 >> POST /pokemon {
+	"name": "Eevee",
+	"type": "Normal"
+}
+[2021-4-13 11:10:50] 💌 << 200 OK
+[2021-4-13 11:12:11] 📨 >> POST /pokemon {
+	"name": "Bulbasaur",
+	"type": "Grass"
+}
+[2021-4-13 11:12:11] 💌 << 200 OK
+[2021-4-13 11:12:35] 📨 >> GET / {}
+[2021-4-13 11:12:35] 💌 << 200 OK
+[2021-4-13 11:12:35] 📨 >> GET /digimon {}
+[2021-4-13 11:12:35] 💌 << 404 NOT_FOUND
+[2021-4-13 11:12:35] 📨 >> PATCH /pokemon {}
+[2021-4-13 11:12:35] 💌 << 405 METHOD_NOT_ALLOWED
+[2021-4-13 11:12:35] 📨 >> POST /pokemon {
+	"name": "Pidgeotto",
+	"type": "Flying"
+}
+[2021-4-13 11:12:35] 💌 << 200 OK
+[2021-4-13 11:12:36] 📨 >> POST /pokemon {
+	"name": "",
+	"type": "Dragon"
+}
+[2021-4-13 11:12:36] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:69:35)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-13 11:12:36] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:12:36] 📨 >> POST /pokemon {
+	"name": "Pikachu",
+	"type": ""
+}
+[2021-4-13 11:12:36] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:69:35)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-13 11:12:36] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:12:36] 📨 >> POST /pokemon {
+	"name": "Hitmonlee",
+	"type": "Fire"
+}
+[2021-4-13 11:12:36] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:37:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:69:21)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:12:36] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:12:36] 📨 >> GET /pokemon {}
+[2021-4-13 11:12:36] 💌 << 200 OK
+[2021-4-13 11:12:36] 📨 >> GET /pokemon/undefined {}
+[2021-4-13 11:12:36] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:93:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:12:36] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:12:36] 📨 >> GET /pokemon/10 {}
+[2021-4-13 11:12:36] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 10.
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:93:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:12:36] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:12:36] 📨 >> POST /auth/login {
+	"name": "Snorlax",
+	"type": "Normal"
+}
+[2021-4-13 11:12:36] 💌 << 404 NOT_FOUND
+[2021-4-13 11:12:36] 📨 >> POST /auth/login {
+	"name": "Squirtle",
+	"type": "Water"
+}
+[2021-4-13 11:12:36] 💌 << 404 NOT_FOUND
+[2021-4-13 11:12:36] 📨 >> GET /auth/logout {}
+[2021-4-13 11:12:36] 💌 << 404 NOT_FOUND
+[2021-4-13 11:12:36] 📨 >> POST /auth/login {
+	"name": "Clefairy",
+	"type": "Fairy"
+}
+[2021-4-13 11:12:36] 💌 << 404 NOT_FOUND
+[2021-4-13 11:12:36] 📨 >> PUT /pokemon/undefined {
+	"name": "Alakazam"
+}
+[2021-4-13 11:12:36] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:112:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:12:36] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:12:36] 📨 >> PUT /pokemon/35 {
+	"name": "Charmander"
+}
+[2021-4-13 11:12:36] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 35.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:112:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:12:36] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:12:36] 📨 >> POST /auth/login {
+	"name": "Vulpix",
+	"type": "Fire"
+}
+[2021-4-13 11:12:36] 💌 << 404 NOT_FOUND
+[2021-4-13 11:12:36] 📨 >> DELETE /pokemon/undefined {}
+[2021-4-13 11:12:36] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:141:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:12:36] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:12:36] 📨 >> DELETE /pokemon/94 {}
+[2021-4-13 11:12:36] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 94.
+    at PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:141:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:12:36] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:13:41] 📨 >> GET / {}
+[2021-4-13 11:13:41] 💌 << 200 OK
+[2021-4-13 11:13:41] 📨 >> GET /digimon {}
+[2021-4-13 11:13:41] 💌 << 404 NOT_FOUND
+[2021-4-13 11:13:41] 📨 >> PATCH /pokemon {}
+[2021-4-13 11:13:41] 💌 << 404 NOT_FOUND
+[2021-4-13 11:13:42] 📨 >> POST /pokemon {
+	"name": "Onyx",
+	"type": "Rock"
+}
+[2021-4-13 11:13:42] 💌 << 200 OK
+[2021-4-13 11:13:42] 📨 >> POST /pokemon {
+	"name": "",
+	"type": "Fighting"
+}
+[2021-4-13 11:13:42] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:69:35)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-13 11:13:42] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:13:42] 📨 >> POST /pokemon {
+	"name": "Dragonite",
+	"type": ""
+}
+[2021-4-13 11:13:42] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:69:35)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-13 11:13:42] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:13:42] 📨 >> POST /pokemon {
+	"name": "Pikachu",
+	"type": "Normal"
+}
+[2021-4-13 11:13:42] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:37:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:69:21)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:13:42] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:13:42] 📨 >> GET /pokemon {}
+[2021-4-13 11:13:42] 💌 << 200 OK
+[2021-4-13 11:13:42] 📨 >> GET /pokemon/undefined {}
+[2021-4-13 11:13:42] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:93:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:13:42] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:13:42] 📨 >> GET /pokemon/29 {}
+[2021-4-13 11:13:42] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 29.
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:93:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:13:42] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:13:42] 📨 >> POST /auth/login {
+	"name": "Koffing",
+	"type": "Poison"
+}
+[2021-4-13 11:13:42] 💌 << 404 NOT_FOUND
+[2021-4-13 11:13:42] 📨 >> POST /auth/login {
+	"name": "Pidgeotto",
+	"type": "Flying"
+}
+[2021-4-13 11:13:42] 💌 << 404 NOT_FOUND
+[2021-4-13 11:13:42] 📨 >> GET /auth/logout {}
+[2021-4-13 11:13:42] 💌 << 404 NOT_FOUND
+[2021-4-13 11:13:42] 📨 >> POST /auth/login {
+	"name": "Vulpix",
+	"type": "Fire"
+}
+[2021-4-13 11:13:42] 💌 << 404 NOT_FOUND
+[2021-4-13 11:13:42] 📨 >> PUT /pokemon/undefined {
+	"name": "Bulbasaur"
+}
+[2021-4-13 11:13:42] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:112:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:13:42] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:13:42] 📨 >> PUT /pokemon/33 {
+	"name": "Charmander"
+}
+[2021-4-13 11:13:42] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 33.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:112:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:13:42] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:13:42] 📨 >> POST /auth/login {
+	"name": "Charmander",
+	"type": "Fire"
+}
+[2021-4-13 11:13:42] 💌 << 404 NOT_FOUND
+[2021-4-13 11:13:42] 📨 >> DELETE /pokemon/undefined {}
+[2021-4-13 11:13:42] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:141:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:13:42] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:13:42] 📨 >> DELETE /pokemon/21 {}
+[2021-4-13 11:13:42] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 21.
+    at PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:141:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:13:42] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:14:20] 📨 >> GET / {}
+[2021-4-13 11:14:20] 💌 << 200 OK
+[2021-4-13 11:14:20] 📨 >> GET /digimon {}
+[2021-4-13 11:14:20] 💌 << 404 NOT_FOUND
+[2021-4-13 11:14:20] 📨 >> PATCH /pokemon {}
+[2021-4-13 11:14:20] 💌 << 405 METHOD_NOT_ALLOWED
+[2021-4-13 11:14:20] 📨 >> POST /pokemon {
+	"name": "Koffing",
+	"type": "Poison"
+}
+[2021-4-13 11:14:20] 💌 << 200 OK
+[2021-4-13 11:14:20] 📨 >> POST /pokemon {
+	"name": "",
+	"type": "Fire"
+}
+[2021-4-13 11:14:20] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:69:35)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-13 11:14:20] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:14:20] 📨 >> POST /pokemon {
+	"name": "Pikachu",
+	"type": ""
+}
+[2021-4-13 11:14:20] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:69:35)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-13 11:14:20] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:14:20] 📨 >> POST /pokemon {
+	"name": "Snorlax",
+	"type": "Fighting"
+}
+[2021-4-13 11:14:20] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:37:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:69:21)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:14:20] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:14:20] 📨 >> GET /pokemon {}
+[2021-4-13 11:14:20] 💌 << 200 OK
+[2021-4-13 11:14:21] 📨 >> GET /pokemon/undefined {}
+[2021-4-13 11:14:21] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:93:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:14:21] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:14:21] 📨 >> GET /pokemon/75 {}
+[2021-4-13 11:14:21] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 75.
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:93:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:14:21] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:14:21] 📨 >> POST /auth/login {
+	"name": "Vulpix",
+	"type": "Fire"
+}
+[2021-4-13 11:14:21] 💌 << 404 NOT_FOUND
+[2021-4-13 11:14:21] 📨 >> POST /auth/login {
+	"name": "Eevee",
+	"type": "Normal"
+}
+[2021-4-13 11:14:21] 💌 << 404 NOT_FOUND
+[2021-4-13 11:14:21] 📨 >> GET /auth/logout {}
+[2021-4-13 11:14:21] 💌 << 404 NOT_FOUND
+[2021-4-13 11:14:21] 📨 >> POST /auth/login {
+	"name": "Pidgeotto",
+	"type": "Flying"
+}
+[2021-4-13 11:14:21] 💌 << 404 NOT_FOUND
+[2021-4-13 11:14:21] 📨 >> PUT /pokemon/undefined {
+	"name": "Sandslash"
+}
+[2021-4-13 11:14:21] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:112:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:14:21] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:14:21] 📨 >> PUT /pokemon/37 {
+	"name": "Charmander"
+}
+[2021-4-13 11:14:21] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 37.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:112:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:14:21] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:14:21] 📨 >> POST /auth/login {
+	"name": "Squirtle",
+	"type": "Water"
+}
+[2021-4-13 11:14:21] 💌 << 404 NOT_FOUND
+[2021-4-13 11:14:21] 📨 >> DELETE /pokemon/undefined {}
+[2021-4-13 11:14:21] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:141:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:14:21] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:14:21] 📨 >> DELETE /pokemon/78 {}
+[2021-4-13 11:14:21] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 78.
+    at PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:141:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:14:21] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:16:38] 📨 >> GET / {}
+[2021-4-13 11:16:38] 💌 << 200 OK
+[2021-4-13 11:16:38] 📨 >> GET /digimon {}
+[2021-4-13 11:16:38] 💌 << 404 NOT_FOUND
+[2021-4-13 11:16:38] 📨 >> PATCH /pokemon {}
+[2021-4-13 11:17:22] 📨 >> GET / {}
+[2021-4-13 11:17:22] 💌 << 200 OK
+[2021-4-13 11:17:22] 📨 >> GET /digimon {}
+[2021-4-13 11:17:22] 💌 << 404 NOT_FOUND
+[2021-4-13 11:17:22] 📨 >> PATCH /pokemon {}
+[2021-4-13 11:17:22] 💌 << 405 METHOD_NOT_ALLOWED
+[2021-4-13 11:17:22] 📨 >> POST /pokemon {
+	"name": "Squirtle",
+	"type": "Water"
+}
+[2021-4-13 11:17:22] 💌 << 200 OK
+[2021-4-13 11:17:22] 📨 >> POST /pokemon {
+	"name": "",
+	"type": "Lightning"
+}
+[2021-4-13 11:17:22] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:63:35)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-13 11:17:22] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:17:22] 📨 >> POST /pokemon {
+	"name": "Alakazam",
+	"type": ""
+}
+[2021-4-13 11:17:22] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:63:35)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-13 11:17:22] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:17:22] 📨 >> POST /pokemon {
+	"name": "Eevee",
+	"type": "Fighting"
+}
+[2021-4-13 11:17:22] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:37:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:63:21)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:17:22] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:17:22] 📨 >> GET /pokemon {}
+[2021-4-13 11:17:22] PokemonException: Cannot retrieve Pokemon, Missing ID.
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:57:20)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:84:21)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:17:22] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:17:22] 📨 >> GET /pokemon/undefined {}
+[2021-4-13 11:17:22] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:87:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:17:22] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:17:22] 📨 >> GET /pokemon/26 {}
+[2021-4-13 11:17:22] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 26.
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:87:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:17:22] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:17:22] 📨 >> POST /auth/login {
+	"name": "Onyx",
+	"type": "Rock"
+}
+[2021-4-13 11:17:22] 💌 << 404 NOT_FOUND
+[2021-4-13 11:17:22] 📨 >> POST /auth/login {
+	"name": "Vulpix",
+	"type": "Fire"
+}
+[2021-4-13 11:17:22] 💌 << 404 NOT_FOUND
+[2021-4-13 11:17:22] 📨 >> GET /auth/logout {}
+[2021-4-13 11:17:22] 💌 << 404 NOT_FOUND
+[2021-4-13 11:17:22] 📨 >> POST /auth/login {
+	"name": "Pidgeotto",
+	"type": "Flying"
+}
+[2021-4-13 11:17:22] 💌 << 404 NOT_FOUND
+[2021-4-13 11:17:22] 📨 >> PUT /pokemon/undefined {
+	"name": "Clefairy"
+}
+[2021-4-13 11:17:22] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:106:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:17:22] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:17:22] 📨 >> PUT /pokemon/98 {
+	"name": "Charmander"
+}
+[2021-4-13 11:17:22] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 98.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:106:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:17:22] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:17:22] 📨 >> POST /auth/login {
+	"name": "Dragonite",
+	"type": "Dragon"
+}
+[2021-4-13 11:17:22] 💌 << 404 NOT_FOUND
+[2021-4-13 11:17:22] 📨 >> DELETE /pokemon/undefined {}
+[2021-4-13 11:17:22] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:135:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:17:22] 💌 << 400 BAD_REQUEST
+[2021-4-13 11:17:22] 📨 >> DELETE /pokemon/87 {}
+[2021-4-13 11:17:22] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 87.
+    at PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:135:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-13 11:17:22] 💌 << 400 BAD_REQUEST
+[2021-4-14 9:54:24] 📨 >> GET / {}
+[2021-4-14 9:54:24] 💌 << 200 OK
+[2021-4-14 9:54:24] 📨 >> GET /digimon {}
+[2021-4-14 9:54:24] 💌 << 404 NOT_FOUND
+[2021-4-14 9:54:24] 📨 >> PATCH /pokemon {}
+[2021-4-14 9:54:24] 💌 << 405 METHOD_NOT_ALLOWED
+[2021-4-14 9:54:24] 📨 >> POST /pokemon {
+	"name": "Pikachu",
+	"type": "Lightning"
+}
+[2021-4-14 9:54:24] 💌 << 200 OK
+[2021-4-14 9:54:24] 📨 >> POST /pokemon {
+	"name": "",
+	"type": "Rock"
+}
+[2021-4-14 9:54:24] PokemonException: Cannot create Pokemon: Missing name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:26:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:63:35)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-14 9:54:24] 💌 << 400 BAD_REQUEST
+[2021-4-14 9:54:25] 📨 >> POST /pokemon {
+	"name": "Vulpix",
+	"type": ""
+}
+[2021-4-14 9:54:25] PokemonException: Cannot create Pokemon: Missing type.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:28:13)
+    at PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:63:35)
+    at PokemonController.doAction (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/Controller.js:21:18)
+    at Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:35)
+    at App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:40)
+    at Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+[2021-4-14 9:54:25] 💌 << 400 BAD_REQUEST
+[2021-4-14 9:54:25] 📨 >> POST /pokemon {
+	"name": "Machamp",
+	"type": "Fire"
+}
+[2021-4-14 9:54:25] PokemonException: Cannot create Pokemon: Duplicate name.
+    at Function.create (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:37:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.new (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:63:21)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-14 9:54:25] 💌 << 400 BAD_REQUEST
+[2021-4-14 9:54:25] 📨 >> GET /pokemon {}
+[2021-4-14 9:54:25] PokemonException: Cannot retrieve Pokemon, Missing ID.
+    at Function.findById (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/models/Pokemon.js:57:20)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:84:21)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-14 9:54:25] 💌 << 400 BAD_REQUEST
+[2021-4-14 9:54:25] 📨 >> GET /pokemon/undefined {}
+[2021-4-14 9:54:25] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:87:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-14 9:54:25] 💌 << 400 BAD_REQUEST
+[2021-4-14 9:54:25] 📨 >> GET /pokemon/2 {}
+[2021-4-14 9:54:25] PokemonException: Cannot retrieve Pokemon: Pokemon does not exist with ID 2.
+    at PokemonController.show (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:87:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-14 9:54:25] 💌 << 400 BAD_REQUEST
+[2021-4-14 9:54:25] 📨 >> POST /auth/login {
+	"name": "Snorlax",
+	"type": "Normal"
+}
+[2021-4-14 9:54:25] 💌 << 404 NOT_FOUND
+[2021-4-14 9:54:25] 📨 >> POST /auth/login {
+	"name": "Alakazam",
+	"type": "Psychic"
+}
+[2021-4-14 9:54:25] 💌 << 404 NOT_FOUND
+[2021-4-14 9:54:25] 📨 >> GET /auth/logout {}
+[2021-4-14 9:54:25] 💌 << 404 NOT_FOUND
+[2021-4-14 9:54:25] 📨 >> POST /auth/login {
+	"name": "Eevee",
+	"type": "Normal"
+}
+[2021-4-14 9:54:25] 💌 << 404 NOT_FOUND
+[2021-4-14 9:54:25] 📨 >> PUT /pokemon/undefined {
+	"name": "Dragonite"
+}
+[2021-4-14 9:54:25] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:106:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-14 9:54:25] 💌 << 400 BAD_REQUEST
+[2021-4-14 9:54:25] 📨 >> PUT /pokemon/76 {
+	"name": "Charmander"
+}
+[2021-4-14 9:54:25] PokemonException: Cannot update Pokemon: Pokemon does not exist with ID 76.
+    at PokemonController.edit (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:106:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-14 9:54:25] 💌 << 400 BAD_REQUEST
+[2021-4-14 9:54:25] 📨 >> POST /auth/login {
+	"name": "Koffing",
+	"type": "Poison"
+}
+[2021-4-14 9:54:25] 💌 << 404 NOT_FOUND
+[2021-4-14 9:54:25] 📨 >> DELETE /pokemon/undefined {}
+[2021-4-14 9:54:25] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID undefined.
+    at PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:135:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-14 9:54:25] 💌 << 400 BAD_REQUEST
+[2021-4-14 9:54:25] 📨 >> DELETE /pokemon/87 {}
+[2021-4-14 9:54:25] PokemonException: Cannot delete Pokemon: Pokemon does not exist with ID 87.
+    at PokemonController.destroy (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/controllers/PokemonController.js:135:13)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async Router.dispatch (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/router/Router.js:48:13)
+    at async App.sendResponse (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/src/App.js:51:22)
+    at async Server.<anonymous> (/Users/liam/JAC CompSci/Web Programming II 420-4W6-AB/Assignments/exercise-4_3-terror/server.js:89:3)
+[2021-4-14 9:54:25] 💌 << 400 BAD_REQUEST

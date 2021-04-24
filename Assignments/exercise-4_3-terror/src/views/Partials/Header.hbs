@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }}</title>
+	<link rel="stylesheet" type="text/css" href="{{styles 'style.css'}}">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="{{ base }}">Home</a></li>
+				<li><a href="{{ path 'pokemon/new' }}">Create Pokemon</a></li>
+				<li><a href="{{ path 'pokemon' }}">List All Pokemon</a></li>
+			</ul>
+		</nav>
+	</header>
