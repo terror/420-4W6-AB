@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ToDos</title>
+	<script src="client.js" defer></script>
+</head>
+
+<body>
+	<h1>📝 ToDo List</h1>
+	<table>
+		<tbody>
+			{{#each todos as |todo|}}
+				<tr>
+					<td>{{ todo.description }}</td>
+				</tr>
+			{{/each}}
+		</tbody>
+	</table>
+	<input type="text" id="new-todo-description">
+	<button id="new-todo-button">➕ Add Todo</button>
+</body>
+
+</html>
