@@ -1,0 +1,23 @@
+{{> Partials/Header }}
+
+{{#if payload.deletedAt}}
+
+    <p>User was deleted on {{ payload.deletedAt }}</p>
+
+{{else}}
+
+    <h1 id="username">{{ payload.username }}</h1>
+    <h2 id="email">{{ payload.email }}</h2>
+
+    {{#if payload.auth}}
+        {{> User/EditFormView }}
+        {{> User/DeleteFormView }}
+    {{/if}}
+
+    <nav>
+        <a href={{path 'auth/logout'}}>Logout</a>
+    </nav>
+
+{{/if}}
+
+{{> Partials/Footer}}

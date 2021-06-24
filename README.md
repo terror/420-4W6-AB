@@ -1,5 +1,4 @@
-## Web Programming II 420-4W6-AB
+## 420-4W6-AB Web Programming II - Assignments
 
-/Assignments -> Graded
-
-/Exercises -> Not Graded
+Repository of assignment solutions for the course Web Programming II
+(420-4W6-AB) @ John Abbott College.

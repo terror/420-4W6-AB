@@ -1,0 +1,55 @@
+{{> Partials/Header }}
+
+    <p id="post-title">{{ payload.title }}</p>
+    <p id="post-content">{{ payload.content }}</p>
+
+    {{#if payload.deletedAt}}
+        <p>This post is read only.</p>
+    {{else}}
+		{{#if payload.isLoggedIn}}
+            {{#if payload.canEdit}}
+                <a href={{path 'post/{id}/edit' payload.id}}>Edit Post!</a>
+            {{else}}
+                <p>URL posts cannot be edited!</p>
+            {{/if}}
+			<form action="{{ path 'post/{id}' payload.id}}" method="POST" id="delete-post-form">
+				<input type="hidden" name="method" value="DELETE">
+				<button type="submit">Delete Post</button>
+			</form>
+		{{/if}}
+        {{#if payload.canComment}}
+			<form action="{{ path 'comment/{id}' payload.id }}" method="POST" id="new-comment-form">
+				<input type="text" name="postId" value='{{ payload.id }}'>
+				<input type="text" name="userId" value ='{{ payload.user.id }}'>
+				<textarea name="content"></textarea>
+				<button type="submit">Create comment</button>
+			</form>
+        {{/if}}
+    {{/if}}
+
+    {{#if payload.comments.length}}
+        <section id="comments">
+            {{#each payload.comments}}
+                <div class="comment" comment-id='{{ id }}'>
+                {{#if deletedAt}}
+                    <p>Comment was deleted on {{ deletedAt }}</p>
+                {{else}}
+                    <p>{{ content }}</p>
+                    <p>{{ createdAt }}</p>
+                    <p>{{ username }}</p>
+                    <form action="{{ path 'comment/{id}' id }}" method="POST" class="delete-comment-form">
+                        <input type="hidden" name="method" value="DELETE">
+                        <button type="submit">Delete comment</button>
+                    </form>
+                    {{#if isUsersComment}} 
+                        <a href={{ path 'comment/{id}/edit' id}}>Edit Comment</a>
+                    {{/if}}
+                {{/if}}
+                </div>
+            {{/each}}
+        </section>
+    {{else}}
+        <p>No comments to display!</p>
+    {{/if}}
+
+{{> Partials/Footer }}
